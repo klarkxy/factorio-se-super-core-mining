@@ -1,0 +1,16 @@
+{
+    "name": "se-super-core-mining",
+    "version": "0.1.0",
+    "title": "se-super-core-mining",
+    "author": "Klarkxy",
+    "contact": "https://github.com/klarkxy/factorio-se-super-core-mining",
+    "homepage": "",
+    "factorio_version": "1.1",
+    "dependencies": [
+        "base >= 1.1.0",
+        "space-exploration >= 0.6.0",
+
+        "? Krastorio2"
+    ],
+    "description": "Let SE's core fragments can get SE's special resources."
+}
