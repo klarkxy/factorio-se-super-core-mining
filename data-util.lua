@@ -3,10 +3,7 @@ local util = {}
 -- 从BZ-UTIL中复制的函数
 -- Add a given quantity of product to a given recipe. 
 -- Only works for recipes with multiple products
-function util.add_product(recipe_name, product, options)
-    if not should_force(options) and bypass(recipe_name) then
-        return
-    end
+function util.add_product(recipe_name, product)
     if data.raw.recipe[recipe_name] and
         (data.raw.item[product[1]] or data.raw.item[product.name] or data.raw.fluid[product[1]] or
             data.raw.fluid[product.name]) then
